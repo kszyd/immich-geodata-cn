@@ -3,11 +3,11 @@ import csv
 import glob
 from utils import logger
 
-ADMIN2_LIST = None
+ADMIN2_LIST = 
 # 可以改成 id 从而只增加特定城市的数据，id 可以从 admin2Codes.txt 里找到
  {
 #   "CN.16.4514",
-    "CN.29.5328",
+#   "CN.29.5328",
     "CN.29.5301",
  }
 
