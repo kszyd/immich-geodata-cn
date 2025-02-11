@@ -8,10 +8,10 @@ ADMIN2_LIST = None
  {
 #   "CN.16.4514",
 #   "CN.29.5328",
-    "CN.29.5301",
+    
  }
 
-admin2_dict = {}
+admin2_dict = {"CN.29.5301"}
 admin2_codes_path = os.path.join("output", "admin2Codes.txt")
 with open(admin2_codes_path, "r", encoding="utf-8") as f:
     for line in f:
