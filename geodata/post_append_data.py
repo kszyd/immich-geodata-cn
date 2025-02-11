@@ -3,7 +3,7 @@ import csv
 import glob
 from utils import logger
 
-ADMIN2_LIST = 
+ADMIN2_LIST = None
 # 可以改成 id 从而只增加特定城市的数据，id 可以从 admin2Codes.txt 里找到
  {
 #   "CN.16.4514",
